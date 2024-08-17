@@ -1,0 +1,47 @@
+:root{
+    --transition2: all 1s ease;
+}
+body{
+    background-color: #040939;
+}
+
+.main{
+
+}
+
+.header{
+    background: linear-gradient(to right,#022854, #0F6FE0);
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.Logo{
+    display: flex;
+    width: 4rem;
+    border-radius: 50%;
+}
+.header-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5rem; 
+}
+
+.header-menu-link{
+    display: flex;
+    gap: 2rem;
+}
+
+.button-menu{
+    text-decoration: none;
+    color: white;
+    
+}
+.button-menu:hover{
+    /*transition: var(--transition2);*/
+    transform: scale(1.5);
+    color: rgba(191, 207, 236, 0.664);
+
+}
