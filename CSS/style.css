@@ -6,9 +6,9 @@ body{
 }
 
 .main{
-
+    box-sizing: border-box;
+    margin-bottom: 2.5rem;
 }
-
 .header{
     background: linear-gradient(to right,#022854, #0F6FE0);
     height: 2.5rem;
@@ -44,4 +44,106 @@ body{
     transform: scale(1.5);
     color: rgba(191, 207, 236, 0.664);
 
+}
+
+.Bienvenida {
+    display: flex;
+    text-align: center; /* Centra el contenido por defecto */
+}
+
+.h1b {
+    font-size: 2rem; /* Ajusta el tamaño según tus preferencias */
+    font-weight: bold;
+    color: #333; /* Cambia el color si lo deseas */
+    margin: 3%;
+}
+
+.contenido_home{
+    display: flex;
+    justify-content: space-between;
+}
+.txt_Bienvenida {
+    margin: 3%;
+    font-size: 45px;
+}
+
+.img_Home {
+    max-width: 30%;
+    max-height: 30%;
+    margin-right: 2%;
+    border-radius: 55%;
+}
+
+footer{
+    background: linear-gradient(to right, #022854, #0F6FE0);
+    padding: 1rem; /* Adjust padding as needed */
+    text-align: center;
+    color: white;
+    height: 10rem;
+    display: flex;
+}
+
+.footer-left{
+    max-block-size: 35%;
+    max-height: 2%;
+}
+
+.footerh1{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 4%;
+    max-width: 35%;
+    margin-bottom: 1.3rem;
+
+}
+
+.pf1{
+    text-align: left;
+    margin-right: 65%;
+    font-size: 20px;
+    max-width: 35%;
+    margin-left: 7%;
+}
+.divmedia{
+    margin-right: 2rem;
+}
+
+.socialmedia{
+    text-align: right;
+    font-size: 30px;
+    padding: 15px;
+}
+.contactos_socialmedia{
+    text-align: right;
+    margin-right: 10%;
+    width: 100%;
+}
+.contactos_socialmedia ul li a{
+    text-decoration: none;
+
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 90%;
+  }
+  .fa:hover{
+    opacity: 0.7;
+  }
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-envelope{
+    background-color: #4CAF50;
+    color: white;
 }
